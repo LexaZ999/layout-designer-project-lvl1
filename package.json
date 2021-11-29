@@ -1,0 +1,27 @@
+{
+  "name": "layout-designer-project-lvl1",
+  "version": "0.1.0",
+  "description": "[![Actions Status](https://github.com/LexaZ999/layout-designer-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/LexaZ999/layout-designer-project-lvl1/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LexaZ999/layout-designer-project-lvl1.git"
+  },
+  "author": "Aleksey Zubkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LexaZ999/layout-designer-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/LexaZ999/layout-designer-project-lvl1#readme",
+  "devDependencies": {
+    "htmlhint": "^1.0.0",
+    "stylelint": "^14.1.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-order": "^5.0.0",
+    "surge": "^0.23.0"
+  }
+}
