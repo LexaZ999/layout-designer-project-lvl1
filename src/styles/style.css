@@ -1,23 +1,42 @@
 @font-face {
-  font-family: "Open Sans";
-  src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
 }
 
 @font-face {
-  font-family: 'Neucha';
+  font-family: Neucha;
   src: url('../fonts/Neucha/Neucha-Regular.ttf');
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside { display: block; }
+
+ul li { list-style: none; }
+
 body {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 
-
-  font-family: 'Open Sans', sans-serif;
+  color: #2a2626;
   font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.6em;
-  color: #2A2626;
 
   background-color: #eee;
 }
@@ -25,7 +44,10 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Neucha', sans-serif;
+  margin: 0;
+
+  font-weight: normal;
+  font-family: Neucha, sans-serif;
   line-height: 1.2em;
 }
 
@@ -41,9 +63,88 @@ h3 {
   font-size: 34px;
 }
 
-header,
-section,
-footer {
+.orange {
+  color: #fe8a02;
+}
+
+.header {
+  position: relative;
+
+  background-color: #f5f4f0;
+}
+
+.background::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+
+  content: '';
+}
+
+.container {
+  position: relative;
+
   max-width: 1110px;
-  margin: 100px auto;
+  margin: 0 auto;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.img {
+  position: absolute;
+  top: 55px;
+
+  right: -270px;
+
+  height: 525px;
+}
+
+.column-two {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.column {
+  width: 50%;
+}
+
+.margin-bottom-185 {
+  margin-bottom: 185px;
+}
+
+.title-main {
+  position: relative;
+  z-index: 10;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 149px;
+  height: 48px;
+  margin-top: 40px;
+
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: #fe8a02;
+}
+
+.button:hover {
+  background-color: #ea7600;
+}
+
+.column p {
+  margin: 1em 0;
 }
