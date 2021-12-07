@@ -302,3 +302,7 @@ header .column p {
 .color-brown {
   color: #b09a81;
 }
+
+.mt-1em {
+  margin-top: 1em;
+}
