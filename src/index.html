@@ -20,7 +20,7 @@
                 <div class="column">
                     <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
                     <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-                    <a class="button" href="#">Подробнее</a>
+                    <a class="button button-hover" href="#navigation">Подробнее</a>
                 </div>
             </div> 
         </div>
@@ -36,40 +36,40 @@
                 ></iframe>
             </div>
         </section>
-        <section class="background-primary-dark">
+        <nav id="navigation" class="background-primary-dark">
             <div class="container padding-top-200 navigation">
                 <div class="card card-header">
                     <h2><span class="orange">5 когнитивных искажений</span><br> <span class="color-white"> о существовании которых стоит помнить</span></h2>
                 </div>
-                <a class="card card-link" href="#">
+                <a class="card card-link" href="#ikea-effect">
                     <div class="card-content">
                         <div class="card-number">1</div>
                         <h3>Эффект ИКЕА</h3>
                         <p class="card-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
                     </div>
                 </a>
-                <a class="card card-link" href="#">
+                <a class="card card-link" href="#premature-optimization">
                     <div class="card-content">
                         <div class="card-number">2</div>
                         <h3>Преждевременная оптимизация</h3>
                         <p class="card-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                     </div>
                 </a>
-                <a class="card card-link" href="#">
+                <a class="card card-link" href="#distortion-of-novelty">
                     <div class="card-content">
                         <div class="card-number">3</div>
                         <h3>Искажение новизны</h3>
                         <p class="card-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
                     </div>
                 </a>
-                <a class="card card-link" href="#">
+                <a class="card card-link" href="#hyperbolic-depreciation">
                     <div class="card-content">
                         <div class="card-number">4</div>
                         <h3>Гиперболическое обесценивание</h3>
                         <p class="card-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
                     </div>
                 </a>
-                <a class="card card-link" href="#">
+                <a class="card card-link" href="#errors-in-planning">
                     <div class="card-content">
                         <div class="card-number">5</div>
                         <h3>Ошибка планирования</h3>
@@ -77,8 +77,8 @@
                     </div>
                 </a>
             </div>
-        </section>
-        <section class="background-img light-section">
+        </nav>
+        <section id="ikea-effect" class="background-img light-section">
             <div class="container">
                 <div class="img-text-container">
                     <img class="img-content drop-shadow" src="./img/1.png" alt="ikea-effect">
@@ -187,8 +187,31 @@
             </div>
         </section>
     </main>
-    <footer>
-        
+    <footer class="background-white">
+        <div class="container">
+            <div class="f-container background-primary-dark color-white">
+                <h3 class="col mt-55 mb-55 ml-55">Хотите узнать больше?<br>Подпишитесь на обновления</h3>
+                <div class="container-form col mr-55">
+                    <form action="#" class="form-email mt-38">
+                        <div class="container-input">
+                            <label for="email" class="name-input">Электронная почта</label>
+                            <div class="box">
+                                <input id="email" type="text" name="email" class="input-email" placeholder="Ваша электронная почта">
+                                <button type="submit" class="submit-email button-hover"></button>
+                            </div>
+                          </div>
+                    </form>
+                    <div class="agreement ">Подписываясь, вы принимаете <a href="#" class="agreement-link color-white">правила сервиса</a></div>
+                </div>
+            </div>
+            <div class="contact-information">
+                <div class="mb-16">© 2021 Алексей Зубков</div>
+                <div class="mb-16">
+                    По материалам статьи <a href="#" class="link"> Yash Ranadive Cognitive Biases in Programming</a>
+                </div>
+                <a href="#" class="link">Курсы программирования Hexlet</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

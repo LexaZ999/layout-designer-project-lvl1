@@ -157,7 +157,7 @@ h3 {
   background-color: #fe8a02;
 }
 
-.button:hover {
+.button-hover:hover {
   background-color: #ea7600;
 }
 
@@ -305,4 +305,111 @@ header .column p {
 
 .mt-1em {
   margin-top: 1em;
+}
+
+.f-container {
+  display: flex;
+  width: 100%;
+}
+
+.mt-55 {
+  margin-top: 55px;
+}
+
+.mr-55 {
+  margin-right: 55px;
+}
+
+.ml-55 {
+  margin-left: 55px;
+}
+
+.mb-55 {
+  margin-bottom: 55px;
+}
+
+.input-email {
+  flex-grow: 1;
+  height: 50px;
+}
+
+.input-email::placeholder {
+  padding-left: 15px;
+
+  color: #757575;
+  font-size: 13.1px;
+
+  opacity: 0.2;
+}
+
+.submit-email {
+  position: relative;
+
+  width: 70px;
+  height: 50px;
+
+  background-color: #fe8a02;
+  cursor: pointer;
+}
+
+.mt-38 {
+  margin-top: 38px;
+}
+
+.box {
+  display: flex;
+  margin-top: 9px;
+}
+
+.name-input {
+  font-size: 18px;
+}
+
+.agreement {
+  font-size: 12px;
+}
+
+.agreement-link {
+  text-decoration: #fff underline;
+}
+
+.submit-email::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 20px;
+  height: 20px;
+  margin: auto;
+
+  background-image: url('../img/send.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: '';
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-information {
+  margin-top: 60px;
+
+  font-size: 14px;
+  text-align: center;
+}
+
+.link {
+  text-decoration-line: underline;
+
+  color: #1085c5;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
 }
