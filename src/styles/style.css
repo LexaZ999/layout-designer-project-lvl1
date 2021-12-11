@@ -34,24 +34,6 @@
   border: 0;
 }
 
-/*
-a,
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-
-a:focus,
-a:active {
-  outline: none;
-}
-*/
-
-/*
-nav,
-footer,
-header,
-aside { display: block; }
-*/
-
 body {
   color: var(--dark);
   font-size: 16px;
@@ -199,13 +181,6 @@ h4 {
   margin-top: 40px;
 }
 
-.btn-footer {
-  position: relative;
-
-  width: 70px;
-  height: 50px;
-}
-
 .btn-primary {
   color: var(--white);
   font-weight: bold;
@@ -285,63 +260,73 @@ h4 {
   color: var(--white);
 }
 
-.img-text-container {
+.description {
   display: flex;
 
   column-gap: 30px;
 }
 
-.text-sub-title {
+.description-subtitle {
   font-size: 24px;
   font-family: Neucha, sans-serif;
 }
 
-.text-p {
-  margin-top: 30px;
-
+.description-paragraph {
   font-size: 34px;
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
 }
 
-.title {
+.mt-30 {
+  margin-top: 30px;
+}
+
+.title-structure {
   margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
+}
 
+.title-decoration {
   font-weight: bold;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 
-.background-brown {
-  background: #b09a81;
-}
-
 .mt-1em {
   margin-top: 1em;
 }
 
-.f-container {
+.subscription-block {
   display: flex;
   width: 100%;
 }
 
-.mt-55 {
-  margin-top: 55px;
+.column-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .mr-55 {
   margin-right: 55px;
 }
 
-.ml-55 {
-  margin-left: 55px;
+.m-55 {
+  margin: 55px;
 }
 
-.mb-55 {
-  margin-bottom: 55px;
+.name-input {
+  font-size: 18px;
+}
+
+.container-input-btn {
+  display: flex;
+}
+
+.mt-9 {
+  margin-top: 9px;
 }
 
 .input-email {
@@ -358,35 +343,11 @@ h4 {
   opacity: 0.2;
 }
 
-.submit-email {
+.btn-footer {
   position: relative;
 
   width: 70px;
   height: 50px;
-
-  background-color: #fe8a02;
-  cursor: pointer;
-}
-
-.mt-38 {
-  margin-top: 38px;
-}
-
-.box {
-  display: flex;
-  margin-top: 9px;
-}
-
-.name-input {
-  font-size: 18px;
-}
-
-.agreement {
-  font-size: 12px;
-}
-
-.agreement-link {
-  text-decoration: #fff underline;
 }
 
 .btn-footer::before {
@@ -407,25 +368,29 @@ h4 {
   content: '';
 }
 
-.col {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.mt-38 {
+  margin-top: 38px;
+}
+
+.agreement {
+  font-size: 12px;
+}
+
+.agreement-link {
+  text-decoration: var(--white) underline;
 }
 
 .contact-information {
-  margin-top: 60px;
-
   font-size: 14px;
   text-align: center;
+}
+
+.mt-60 {
+  margin-top: 60px;
 }
 
 .link {
   text-decoration-line: underline;
 
-  color: #1085c5;
-}
-
-.mb-16 {
-  margin-bottom: 16px;
+  color: var(--blue);
 }
