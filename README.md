@@ -1,4 +1,8 @@
-### Hexlet tests and linter status:
 [![Actions Status](https://github.com/LexaZ999/layout-designer-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/LexaZ999/layout-designer-project-lvl1/actions)
 
-Ссылка на проект cog-bias.surge.sh
+## Когнитивные искажения
+#### Проект #1 Верстальщик
+
+Проект строится на создании вёрстки простого лендинга. Основная задача — сформировать аккуратную и поддерживаемую вёрстку. В этом ему помогут подходы OOCSS и Atomic CSS.
+
+### [Ссылка на проект](cog-bias.surge.sh)
